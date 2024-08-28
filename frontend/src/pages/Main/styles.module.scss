@@ -1,0 +1,22 @@
+@import 'src/assets/styles/helpers/all';
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+
+  .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    .count {
+      @include headline-h1();
+      margin-bottom: 112px;
+    }
+  }
+}
