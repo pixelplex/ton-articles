@@ -16,3 +16,8 @@ docker compose up
 ```shell
 npm start
 ```
+
+### App logic
+
+* User authentication [here](./src/middlewares.ts)
+* Routes handling [here](./src/routes.ts)
