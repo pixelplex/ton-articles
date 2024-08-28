@@ -69,3 +69,7 @@ After a successful post request, it increments the count state.
     }
   }
 ```
+
+## Backend
+
+More information about running backend services can be found [here](./backend/README.md)
